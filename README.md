@@ -1,6 +1,6 @@
-## BLUM BOT
+## BLUM AUTOMATION SCRIPT
 
-## BOT FEATURE
+## FEATURES
 
 - Auto Play Game
 - Auto Claim Daily
