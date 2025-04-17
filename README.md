@@ -10,7 +10,7 @@
 - Proxy Support
 
 ## COMMANDS
-1. **Install older python version for termux**
+1. **Install Older Python Version for Termux**
 ```
    pkg update && pkg upgrade
 ```
