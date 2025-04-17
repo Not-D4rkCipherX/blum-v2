@@ -10,7 +10,7 @@
 - Proxy Support
 
 ## COMMANDS
-1. ** Install older python version for termux **
+1. **Install older python version for termux**
 ```
    pkg update && pkg upgrade
 ```
@@ -26,7 +26,7 @@
 ```
    pip3.10 install --upgrade pip wheel
 ```
-2. ** Script Installation**
+2. **Script Installation**
    ```bash
    git clone https://github.com/Not-D4rkCipherX/blum-v2.git
    cd blum-v2
