@@ -10,13 +10,29 @@
 - Proxy Support
 
 ## COMMANDS
-1. **Installation**
+1. ** Install older python version for termux **
+```
+   pkg update && pkg upgrade
+```
+```
+   pkg install clang cmake ninja rust make
+```
+```
+   pkg install tur-repo
+```
+```
+   pkg install python3.10
+```
+```
+   pip3.10 install --upgrade pip wheel
+```
+2. ** Script Installation**
    ```bash
    git clone https://github.com/Not-D4rkCipherX/blum-v2.git
    cd blum-v2
-   pip install -r requirements.txt
+   pip3.10 install -r requirements.txt
    ```
-2. **Configuration**
+3. **Configuration**
 To Adjust GamePoint, Enable/Disble Tasks, etc..
 ```bash
 nano config.json
@@ -35,12 +51,12 @@ nano config.json
   "delay_loop": 3000
 }
 ```
-3. **ADD ACCOUNTS**
+4. **ADD ACCOUNTS**
    ```
    nano query.txt
    ```
    
-4. **Set Up Proxy (Optional)**  
+5. **Set Up Proxy (Optional)**  
    To use a proxy, create a `proxy.txt` file and add proxies in the format:
 
    ```
@@ -49,9 +65,9 @@ nano config.json
 
    - Only HTTP and HTTPS proxies are supported.
    
-5. **START THE BOT**
+6. **START THE BOT**
 ```bash
-python main.py
+python3.10 main.py
 ```
 ## Buy ME a Coffee
 
